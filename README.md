@@ -6,7 +6,7 @@ PlanMyTrip is a top travel technology company specializing in internet-related s
 ## Resources
 - **Data Sources**: cities.csv, WeatherPy_Database.csv & WeatherPy_vacation.csv
 - **Software**: Python 3.7.6, Anaconda 4.9.2 & Git Bash 2.29.2
-- **Tools**: Jupyter Notebook, Pandas, Matplotlib 3.3.2, NumPy library, SciPy library, OpenWeatherMap API, Google Maps API, Google Places API & Google Directions API 
+- **Tools**: Jupyter Notebook, Pandas, Matplotlib 3.3.2, NumPy library, SciPy library, OpenWeatherMap API, Google Maps, Google Places & Google Directions APIs 
 
 ## Challenge Overview
 Jack loves the PlanMyTrip app. Beta testers love it too. And, as with any new product, they recommended a few changes to take the app to the next level. Specifically, they recommended adding the weather description to the weather data. Then, I added input statements for the beta testers to filter the data for their weather preferences, to be used to identify potential travel destinations and nearby hotels. From the list of potential travel destinations, the beta tester can now choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, I created a travel route between the four cities as well as a marker layer map.
@@ -16,7 +16,7 @@ Jack loves the PlanMyTrip app. Beta testers love it too. And, as with any new pr
 ### Deliverable 1: Retrieve Weather Data
 Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data you gathered in this module, use your API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
 
-	<img src="analysis/Delv 1_step 1_rides by type.PNG">
+<img src="Weather_Database/Weather_DataFrame.PNG">
 
 ### Deliverable 2: Deliverable 2: Create a Customer Travel Destinations Map
 Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
