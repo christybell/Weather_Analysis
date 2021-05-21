@@ -28,7 +28,7 @@ I used the Google Directions API to create a travel itinerary that shows the rou
 
 <img src="Vacation_Itinerary/WeatherPy_travel_map.PNG">
 
-Finally, I created a marker layer map with a pop-up marker for each city on the itinerary, as shwon below.
+Finally, I created a marker layer map with a pop-up marker for each city on the itinerary, as shown below.
 
 <img src="Vacation_Itinerary/WeatherPy_travel_map_markers.PNG">
 
